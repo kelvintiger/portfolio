@@ -191,6 +191,7 @@ header{
 	/* See documentation for mobile view */
 	grid-column: 2;
 	border: 5px solid white;
+	background-color: rgba(0, 0, 0, 0.5);
 
 }
 
