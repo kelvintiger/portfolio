@@ -1,0 +1,274 @@
+/* Cards! */
+/*.pricing{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}*/
+
+/*.card {
+
+  flex-basis: 400px;
+  
+  margin: 12px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 0 0 50px 0;
+}
+
+.card > header{
+  background: #288080;
+  border: 2px solid #45ADAD;
+  padding: 20px 0;
+  border-radius: 7px 7px 0 0;
+}
+
+.card > ul{
+  list-style: none;
+  padding: 0;
+}
+
+.card > ul li {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.card button{
+  width: 90%;
+  height: 40px;
+  border: 0;
+  margin-left: 12px;
+  border-radius: 7px;
+  background: #288080;
+  color: white;
+  font-size: 1em;
+}
+
+.card h3{
+  font-size: 4em;
+  color: white;
+  text-align: center;
+}
+
+.card_big{
+  -webkit-transform: initial;
+          transform: initial;
+}*/
+
+/* Gallery! */
+
+.gallery{
+  
+  min-height: 300px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gallery > img{
+  object-fit: cover;
+  height: 300px;
+
+
+}
+
+
+/*#test{
+  background-color: black;
+  background-image: url("../images/simudyne.jpg");
+  background-size: cover;
+  background-position: center top
+}*/
+
+
+
+
+
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+nav li{
+  display:inline;
+  padding-right:20px;
+
+}
+
+nav a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav li b{
+  color: #B30000;
+  text-decoration: underline;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus{
+  top: 0;
+}
+
+*:focus{
+  border: 2px solid black;
+}
+
+nav{
+  background-color: white;
+  padding: 20px 0;
+
+  /*Your code here*/
+  /*Span the top row*/
+  grid-column: 1 / -1;
+  grid-row: 1;
+
+
+  text-align: right;
+  padding: 35px 0px;
+  align-self: center;
+
+
+
+}
+
+.container{
+  /*Your code here  */
+  /* See documentation for mobile view */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 30px;
+}
+
+
+footer{
+  background-color: white;
+  color: #B30000;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (prefers-reduced-motion: reduce){
+  #logo{
+    animation: none;
+
+  }
+}
+
+@media screen and (min-width: 850px){
+
+  .container{
+    /*Your code here */
+    /* See documentation for desktop view */ 
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-template-columns: 25% 25% 25% 24%;
+    grid-template-rows: 70px;
+  }
+
+  nav{
+    text-align: right;
+    padding: 35px 0px;
+    align-self: center;
+  }
+}
+
+@media print { 
+  
+  .card {
+    flex-basis: 200px;
+  }
+
+  .pricing{
+    align-items: flex-start;
+  }
+
+  body{
+    background-image: none;
+  }
+
+  #gallery, .gallery{
+    display: none;
+  }
+
+}
+
+
+body{
+    font-family: "Helvetica Neue", arial narrow;
+    color: white;
+
+    height: 98%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  a{
+    color: #B30000;
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+

@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="css/indexcss.css">
-<!--     <link rel="shortcut icon" type="image/png" href="images/FIXMEFIXMEFIXMEFIXMEFIXME"/> -->
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160749900-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <title>Kelvin Chang's Portfolio</title>
-  </head>
+    gtag('config', 'UA-160749900-1');
+  </script>
 
-  <body>
-    <header>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <link id="styles" rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <script src = "js/mode.js"></script>
+
+  <title>Kelvin Chang's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div id="indexpic"></div>
+
+    <div class="index">
       <h1>Kelvin Chang</h1>
+      <br>
+
       <h2>Culture Builder. UX Designer.</h2>
-      <p>This is the landing page. I know there is not much here cause I am currently at Disney land. Please just give me some suggestion of what can be in each page. Thanks!</p>
+      <br>
+    </div>
 
+  </header>
 
-    </header>
-
-    <main>
+  <main>
+    <div class="index">
       <a href="home.html">Enter Site</a>
-    </main>
- 
-    <footer>
-    </footer>
-  </body>
+      
+    </div>
+  </main>
+
+  <footer>
+    <a class="mode" id="light" onclick="lightMode()" > --Light--   </a>
+    <a class="mode" id="dark" onclick="darkMode()" >   --Dark--    </a>
+
+
+
+
+  </footer>
+</body>
 
 </html>

@@ -1,0 +1,58 @@
+html{
+	height: 100%
+}
+body{
+	font-family: "Helvetica Neue", arial narrow;
+	color: white;
+
+	height: 98%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	border: 10px solid white;
+}
+
+#indexpic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background-image: url('../images/headshot.jpg');
+	background-size: cover;
+	background-position: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	position: relative;
+	top: 250px;
+}
+
+.index{
+	position: relative;
+	top: 300px;
+	text-align: center;
+}
+
+.index > h1{
+	font-size: 60px;
+}
+
+.index > h2{
+	top: 500px;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer{
+	position: relative;
+	text-align: center;
+	top: 550px;
+}
+
