@@ -72,6 +72,7 @@
 .gallery > img{
   object-fit: cover;
   height: 300px;
+  border: 1px solid white;
 
 
 }
@@ -164,7 +165,7 @@ nav{
   grid-row: 1;
 
 
-  text-align: right;
+  text-align: left;
   padding: 35px 0px;
   align-self: center;
 
